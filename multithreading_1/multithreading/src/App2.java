@@ -9,7 +9,8 @@ public class App2 {
 
         @Override
         public void run() {
-            System.out.println("Hello from " + Thread.currentThread().getName());
+            System.out.println("Hello from " + this.getName());
+            System.out.println("My priority is " + this.getPriority());
         }
     }
 
